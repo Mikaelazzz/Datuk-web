@@ -9323,7 +9323,7 @@ b06(a){var s=0,r=A.L(t.BN),q,p=2,o=[],n,m,l,k,j,i,h
 var $async$B6=A.H(function(b,c){if(b===1){o.push(c)
 s=p}for(;;)switch(s){case 0:p=4
 s=7
-return A.D(A.aVH(A.eR("http://localhost:8000/history?limit="+a,0,null),A.aP4()),$async$B6)
+return A.D(A.aVH(A.eR("https://vel1xi-datuk-backend.hf.space/history?limit="+a,0,null),A.aP4()),$async$B6)
 case 7:n=c
 if(n.b===200){j=n
 m=B.b7.ez(0,A.MP(A.MH(j.e)).ez(0,j.w))
@@ -9353,7 +9353,7 @@ b05(a){var s=0,r=A.L(t.y),q,p=2,o=[],n,m,l,k,j
 var $async$a7h=A.H(function(b,c){if(b===1){o.push(c)
 s=p}for(;;)switch(s){case 0:p=4
 s=7
-return A.D(A.aWr(A.eR("http://localhost:8000/history/"+a,0,null),A.aP4()),$async$a7h)
+return A.D(A.aWr(A.eR("https://vel1xi-datuk-backend.hf.space/history/"+a,0,null),A.aP4()),$async$a7h)
 case 7:n=c
 if(n.b===200){q=!0
 s=1
@@ -31244,7 +31244,7 @@ case 2:return A.I(o.at(-1),r)}})
 return A.K($async$HF,r)},
 HE(a){var s=0,r=A.L(t.a),q,p,o,n,m,l
 var $async$HE=A.H(function(b,c){if(b===1)return A.I(c,r)
-for(;;)switch(s){case 0:o=A.eR("http://localhost:8000/users",0,null)
+for(;;)switch(s){case 0:o=A.eR("https://vel1xi-datuk-backend.hf.space/users",0,null)
 n=t.N
 m=A.aC(["Content-Type","application/json"],n,n)
 s=3
@@ -53584,9 +53584,9 @@ var $async$tt=A.H(function(a3,a4){if(a3===1){o.push(a4)
 s=p}for(;;)switch(s){case 0:n.ary()
 n.a.toString
 p=4
-m="http://localhost:8000/predict"
+m="https://vel1xi-datuk-backend.hf.space/predict"
 d=$.yP
-if(d!=null)m="http://localhost:8000/predict?user_id="+d
+if(d!=null)m="https://vel1xi-datuk-backend.hf.space/predict?user_id="+d
 l=A.eR(m,0,null)
 A.eE().$1("Connecting to API at: "+A.k(l))
 k=A.b4i("POST",l)
@@ -54343,7 +54343,7 @@ A.aue.prototype={
 xb(){var s=0,r=A.L(t.H),q,p=this,o,n,m,l
 var $async$xb=A.H(function(a,b){if(a===1)return A.I(b,r)
 for(;;)switch(s){case 0:if(p.d){s=1
-break}try{o=B.c.uS(B.c.uS("http://localhost:8000","https://","wss://"),"http://","ws://")+"/ws"
+break}try{o=B.c.uS(B.c.uS("https://vel1xi-datuk-backend.hf.space","https://","wss://"),"http://","ws://")+"/ws"
 A.eE().$1("WebSocket: Connecting to "+A.k(o))
 m=A.b_X(A.aKH(A.eR(o,0,null),null))
 p.a=m
